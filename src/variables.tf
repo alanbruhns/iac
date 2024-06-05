@@ -1,5 +1,8 @@
-variable "key_name" {
-  description = "Name of the SSH key pair"
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
+variable "region" {
+  description = "AWS region"
   type        = string
-  default     = "eks-pre-demo"
+  default     = "us-east-2"
 }
